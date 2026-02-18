@@ -266,9 +266,7 @@ header {
 
 /* Gallery */
 
-/* Osnovni stilovi za celu stranicu */
 
-/* Glavni kontejner - 3x3 MREŽA */
 
 .gallery-title {
   text-align: center;
@@ -278,13 +276,13 @@ header {
 
 .galerija-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* TAČNO 3 KOLONE */
+  grid-template-columns: repeat(3, 1fr); 
   gap: 20px;
   max-width: 1100px;
   margin: 0 auto 70px auto;
 }
 
-/* Kartica svake usluge */
+
 .galerija-item {
   margin: 0;
   background: #fff;
@@ -300,15 +298,15 @@ header {
   transform: translateY(-8px);
 }
 
-/* Stilovi za slike */
+
 .galerija-item img {
   width: 100%;
-  height: 220px; /* Fiksna visina za simetriju */
-  object-fit: cover; /* Sprečava razvlačenje slike */
+  height: 220px; 
+  object-fit: cover; 
   display: block;
 }
 
-/* Stilovi za opis ispod slike */
+
 .galerija-item figcaption {
   padding: 15px;
   text-align: center;
@@ -316,7 +314,7 @@ header {
   color: #2c3e50;
   text-transform: uppercase;
   font-size: 14px;
-  border-top: 3px solid #007bff; /* Akcenat boja (vodeno plava) */
+  border-top: 3px solid #007bff; 
 }
 
 /* Footer */
